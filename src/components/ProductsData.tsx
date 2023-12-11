@@ -6,6 +6,7 @@ import { ItemProps } from "../../type";
 import { calculatePerecentage } from "@/helpers";
 import FormattedPrice from "./FormattedPrice";
 import { FaStar } from "react-icons/fa";
+import Link from "next/link";
 
 
 
@@ -16,12 +17,13 @@ const ProductsData = ({ item }: ItemProps) => {
           <FaStar/>
     </span>
   ))
-  console.log(item);
+  // console.log(item);
 
   return (
     <div className='w-full rounded-lg overflow-hidden'>
       <div>
-        <div className="w-full h-96 group overflow-hidden relative">
+       <Link href={{pathname:'/product',query:{id:item?.id}}}>
+       <div className="w-full h-96 group overflow-hidden relative">
           <Image
             src={item.attributes.image.data.attributes.url}
             alt="product image"
@@ -35,6 +37,7 @@ const ProductsData = ({ item }: ItemProps) => {
             </span>
           )}
         </div>
+       </Link>
         <div className="border-[1px] border-slate-300 border-t-0 px-2 py-4 flex flex-col gap-y-2 bg-white rounded-b-lg">
           <p>{item?.attributes?.title}</p>
           <div className="flex items-center justify-between">

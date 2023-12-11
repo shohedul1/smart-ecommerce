@@ -1,3 +1,4 @@
+import { productData } from "@/constants/data";
 
 export const getProducts = async () => {
   const options = {
@@ -19,3 +20,9 @@ export const getProducts = async () => {
 export const calculatePerecentage = (oldPrice: any, price: any)=>{
   return !!parseFloat(price) && !!parseFloat(oldPrice) ? (100 - (oldPrice / price) * 100).toFixed(0) : 0
 }
+
+
+export const getSingleProduct = (id: number)=>{
+  const item = productData.find((product)=>product.id === id);
+  return item;
+};
