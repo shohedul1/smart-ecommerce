@@ -3,15 +3,21 @@
 @tailwind utilities;
 
 @layer components {
-  .headerDiv{
-    @apply bg-bgLight text-gray-500 flex items-center justify-center p-1.5 rounded-full hover:bg-white border-[1px] border-gray-200 hover:border-orange-500 duration-200 ;
-  }
-  .cardDiv{
-    @apply bg-black hover:bg-slate-950 rounded-full text-slate-100 hover:text-white flex items-center justify-center gap-x-1 px-3 py-1.5 border-[1px] border-black hover:border-orange-600 duration-200 ;
-  }
-  .spanClass{
+  .searchDiv{
+    @apply w-full bg-white hidden md:flex items-center gap-x-1 border-[1px] border-lightText/50 rounded-full px-4 py-1.5 focus-within:border-orange-600;
+}
+.headerDiv{ 
+    @apply bg-bgLight text-gray-500 flex items-center justify-center p-1.5 rounded-full hover:bg-white border-[1px] border-gray-500 hover:border-orange-500 duration-200;
+ };
+ .cartDiv{
+    @apply bg-black hover:bg-slate-950 rounded-full text-slate-100 hover:text-white flex items-center justify-center gap-x-1 px-3 py-1.5 border-[1px] border-black hover:border-orange-500 duration-200 relative;
+ };
+ .cartSpan{
     @apply bg-white text-orange-600 rounded-full text-xs font-semibold absolute -right-2 -top-1 w-5 h-5 flex items-center justify-center shadow-xl shadow-black;
-  }
+ }
+ .socialLink{
+  @apply bg-slate-100 text-darkText p-1 inline-flex items-center justify-center rounded-md text-lg hover:bg-orange-600 hover:text-white cursor-pointer duration-200
+ }
  
 
 }

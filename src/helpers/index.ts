@@ -7,7 +7,7 @@ export const getProducts = async () => {
   }
 
   try {
-    const res = await fetch("http://127.0.0.1:1337/api/products?populate=*", options);
+    const res = await fetch("https://smart-ecommerce.onrender.com/api/products?populate=*", options);
     const response = await res.json();
     return response;
   } catch (err) {
