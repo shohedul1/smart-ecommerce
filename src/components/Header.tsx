@@ -4,13 +4,17 @@ import Logo from "./Logo";
 import { FiSearch } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
 import { FaCartShopping } from "react-icons/fa6";
+import { FiLogOut } from "react-icons/fi";
 import { useSession,signIn,signOut } from "next-auth/react";
+import Image from 'next/image';
 
 
 
 
 
 const Header = () => {
+  const {data: session} = useSession();
+  // console.log(session);
   return (
     <div className="bg-bodyColor h-20">
         <Container className="h-full flex items-center md:gap-x-5 justify-between md:justify-start">
@@ -24,10 +28,12 @@ const Header = () => {
                  className="placeholder:text-sm flex-1 outline-none"/>
             </div>
             {/* Login/Register */}
+            {!session &&(
             <div onClick={()=>signIn()} className="headerDiv">
               <AiOutlineUser className="text-2xl"/>
               <p>Loging/Register</p>
             </div>
+            )}
             {/* cart-button */}
             <div className="cardDiv">
               <FaCartShopping className="text-2xl"/>
@@ -36,6 +42,23 @@ const Header = () => {
                 0
               </span>
             </div>
+            {/* user image */}
+            {session &&(
+              <Image 
+              src={session?.user?.image as string}
+              width={50}
+              height={50}
+              alt="user image"
+              className="rounded-full object-cover"/>
+            )}
+            {/* logout button */}
+            {session &&(
+            <div onClick={()=>signOut()} className="headerDiv gap-x-1 cursor-pointer">
+            <FiLogOut className="text-2xl"/>
+            <p className="text-sm font-semibold">Logout</p>
+
+            </div>
+            )}
         </Container>
        
     </div>

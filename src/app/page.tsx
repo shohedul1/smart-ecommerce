@@ -1,9 +1,14 @@
-import Image from 'next/image'
 
-export default function Home() {
+import Bunner from '@/components/Bunner'
+import Products from '@/components/Products';
+
+
+export default async function Home() {
+  
   return (
     <main>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iste recusandae illum saepe soluta officia facere sed assumenda itaque ullam.
+     <Bunner/>
+     <Products/>
     </main>
   )
 }
