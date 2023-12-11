@@ -33,7 +33,7 @@ const BannerText = ({title,description}:Props) => {
          className="flex gap-x-4 mt-2">
         
             <button className="py-3 px-6 rounded-full bg-slate-200 hover:bg-white duration-200 text-sm uppercase font-semibold">
-                Find out more
+                Find out more and let see 
             </button>
             <button className="py-3 px-6 rounded-full bg-slate-200 hover:bg-white duration-200 text-sm uppercase font-semibold">Shop Now</button>
         </motion.div>
