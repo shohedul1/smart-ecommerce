@@ -27,8 +27,8 @@ const Header = () => {
     useEffect(() => {
         let amt = 0;
         productData.map((item: Products) => {
-            amt += item?.attributes?.price * item?.attributes?.quantity
-            return amt;
+            amt += item?.attributes?.price * item?.attributes?.quantity;
+            return;
         });
         setTotalAmt(amt);
     }, [productData]);
