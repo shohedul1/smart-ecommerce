@@ -2,7 +2,6 @@
 import Container from "./Container"
 import Logo from "./Logo";
 import { FiSearch } from "react-icons/fi";
-import { AiOutlineUser } from "react-icons/ai";
 import { BsCart } from "react-icons/bs";
 
 import { FiLogOut } from "react-icons/fi";
@@ -28,7 +27,7 @@ const Header = () => {
     useEffect(() => {
         let amt = 0;
         productData.map((item: Products) => {
-            amt += item.attributes.price * item.attributes.quantity
+            amt += item?.attributes?.price * item?.attributes?.quantity
             return;
         });
         setTotalAmt(amt);
@@ -74,15 +73,7 @@ const Header = () => {
                         height={50}
                         className='rounded-full object-cover' />
                 }
-                {/* Order button */}
-                {/* {
-            orderData?.order?.length > 0 && session && (
-                <Link href={"/order"} className='headerDiv px-2 gap-x-1 cursor-pointer'>
-                <BsBookmark className="text-2xl"/>
-                <p className='text-sm font-semibold'>Orders</p>
-                </Link>
-            )
-        } */}
+            
 
                 {/* logout button */}
                 {session && (
