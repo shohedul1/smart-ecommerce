@@ -11,6 +11,7 @@ import Link from "next/link";
 
 const CartPage = () => {
   const { productData } = useSelector((state: StateProps) => state?.shopping);
+//   console.log(productData);
   const dispatch = useDispatch();
   return (
     <Container>

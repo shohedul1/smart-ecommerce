@@ -12,6 +12,7 @@ import FormattedPrice from "./FormattedPrice";
 
 const CartItem = () => {
     const { productData } = useSelector((state: StateProps) => state?.shopping);
+    console.log(productData);
     const dispatch = useDispatch();
 
     return (
