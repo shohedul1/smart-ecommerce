@@ -23,7 +23,7 @@ const CartPage = () => {
                         <div className="flex items-center justify-end mt-2">
                             <button onClick={() => dispatch(resetCart())}
                                 className="bg-red-500 text-base font-semibold text-slate-100 py-2 px-6 hover:bg-red-700 hover:text-white duration-200">
-                                reset cart
+                                reset cart1
                             </button>
                         </div>
                         {/* <PaymentForm /> */}
