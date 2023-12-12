@@ -8,19 +8,22 @@ import { decreaseQuantity, deleteProduct, increaseQuantity } from "@/redux/shopp
 import FormattedPrice from "./FormattedPrice";
 
 
+
+
 const CartItem = () => {
     const { productData } = useSelector((state: StateProps) => state?.shopping);
     const dispatch = useDispatch();
-  return (
-    <div className='flex flex-col gap-y-2'>
-        <div className='hidden lg:inline-flex items-center justify-between font-semibold bg-white p-2'>
-            <p className='w-1/3 '>Product</p>
-            <p className='w-1/3 flex items-center justify-center'>Quantity</p>
-            <p className='w-1/3 flex items-center justify-end'>Subtotal</p>
-        </div>
-          {/* Generate the product */}
-          <div className='flex flext-col gap-y-2'>
-          {
+
+    return (
+        <div className="flex flex-col gap-y-2">
+            <div className="hidden lg:inline-flex items-center justify-between font-semibold bg-white p-2">
+                <p className="w-1/3">Product</p>
+                <p className="w-1/3 flex items-center justify-center">Quantity</p>
+                <p className="w-1/3 flex items-center justify-end">Subtotal</p>
+            </div>
+            {/* Generate the product */}
+            <div className="flex flex-col gap-y-2">
+                {
                     productData?.map((item: Products) => (
                         <div key={item.id} className="w-full bg-white p-4 flex flex-col md:flex-row items-center justify-between gap-4" >
                             <div className="flex items-center gap-x-3 w-full md:w-1/3">
@@ -58,10 +61,9 @@ const CartItem = () => {
                         </div>
                     ))
                 }
-
-          </div>
-    </div>
-  )
+            </div>
+        </div>
+    )
 }
 
-export default CartItem
+export default CartItem;
