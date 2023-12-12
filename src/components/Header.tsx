@@ -21,14 +21,14 @@ const Header = () => {
     const { data: session } = useSession();
     // console.log(session);
     const { productData } = useSelector((state: StateProps) => state.shopping);
-      console.log(productData)
+    //   console.log(productData)
     const [totalAmt, setTotalAmt] = useState(0);
 
     useEffect(() => {
         let amt = 0;
         productData.map((item: Products) => {
             amt += item?.attributes?.price * item?.attributes?.quantity
-            return;
+            return amt;
         });
         setTotalAmt(amt);
     }, [productData]);

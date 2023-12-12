@@ -20,17 +20,17 @@ export interface Products {
         }
 
 
-export interface ItemProps {
-    item: Products;
-}
 
-
-export interface StateProps {
-    shopping: {
-        productData: [];
-        userInfo: {};
-        orderData:{
-            order: Products[];
+        export interface ItemProps{
+            item:Products
         };
-    };
-}
+        
+        export interface StateProps{
+            shopping:{
+                productData:[],
+                userInfo:[],
+                orderData:{
+                    order: Products[];
+                };
+            };
+        }
