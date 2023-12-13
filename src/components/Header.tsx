@@ -53,7 +53,7 @@ const Header = () => {
 
     return (
          <div className='bg-bodyColor h-20 top-0 sticky z-50'>
-         <Container className='h-full flex items-center md:gap-x-5 justify-start md:justify-between'>
+         <Container className='h-full flex items-center md:gap-x-5 justify-between md:justify-start'>
              {/* {logo} */}
              <Logo />
              {/* Search Field */}
