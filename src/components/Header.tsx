@@ -1,7 +1,7 @@
 'use client';
 import Container from "./Container"
 import Logo from "./Logo";
-import { FiSearch } from "react-icons/fi";
+// import { FiSearch } from "react-icons/fi";
 import { BsCart } from "react-icons/bs";
 
 import { FiLogOut } from "react-icons/fi";
@@ -113,8 +113,6 @@ const Header = () => {
                             <p className='text-sm font-semibold'>Logout</p>
                         </div>
                     )}
-
-
 
             </Container>
         </div>
