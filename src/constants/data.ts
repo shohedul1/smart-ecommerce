@@ -1,5 +1,5 @@
-export const productData = [ 
-	{
+export const productData = [
+    {
         "id": 4,
         "attributes": {
             "title": "lopher-11",
@@ -610,7 +610,675 @@ export const productData = [
                 }
             }
         }
+    },
+    {
+        "id": 11,
+        "attributes": {
+            "title": "mobile",
+            "createdAt": "2023-12-12T14:50:50.440Z",
+            "updatedAt": "2023-12-12T14:50:52.813Z",
+            "publishedAt": "2023-12-12T14:50:52.729Z",
+            "isNew": true,
+            "oldPrice": 10000,
+            "price": 9500,
+            "description": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo \"Contenido aquí, contenido aquí\". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de \"Lorem Ipsum\" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).",
+            "category": "nokiya",
+            "rating": 3,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 10,
+                    "attributes": {
+                        "name": "shohiduld11.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 606,
+                        "height": 811,
+                        "formats": {
+                            "small": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702392637/small_shohiduld11_3d3c4a6857.jpg",
+                                "hash": "small_shohiduld11_3d3c4a6857",
+                                "mime": "image/jpeg",
+                                "name": "small_shohiduld11.jpg",
+                                "path": null,
+                                "size": 39.37,
+                                "width": 374,
+                                "height": 500,
+                                "provider_metadata": {
+                                    "public_id": "small_shohiduld11_3d3c4a6857",
+                                    "resource_type": "image"
+                                }
+                            },
+                            "medium": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702392638/medium_shohiduld11_3d3c4a6857.jpg",
+                                "hash": "medium_shohiduld11_3d3c4a6857",
+                                "mime": "image/jpeg",
+                                "name": "medium_shohiduld11.jpg",
+                                "path": null,
+                                "size": 74.87,
+                                "width": 560,
+                                "height": 750,
+                                "provider_metadata": {
+                                    "public_id": "medium_shohiduld11_3d3c4a6857",
+                                    "resource_type": "image"
+                                }
+                            },
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702392637/thumbnail_shohiduld11_3d3c4a6857.jpg",
+                                "hash": "thumbnail_shohiduld11_3d3c4a6857",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_shohiduld11.jpg",
+                                "path": null,
+                                "size": 5.28,
+                                "width": 117,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_shohiduld11_3d3c4a6857",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "shohiduld11_3d3c4a6857",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 77.09,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702392637/shohiduld11_3d3c4a6857.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "shohiduld11_3d3c4a6857",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-12T14:50:39.007Z",
+                        "updatedAt": "2023-12-12T14:50:39.007Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 12,
+        "attributes": {
+            "title": "Tv",
+            "createdAt": "2023-12-13T17:05:30.092Z",
+            "updatedAt": "2023-12-13T17:05:33.632Z",
+            "publishedAt": "2023-12-13T17:05:33.518Z",
+            "isNew": true,
+            "oldPrice": 50000,
+            "price": 40000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "india",
+            "rating": 2,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 28,
+                    "attributes": {
+                        "name": "TV.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 225,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_TV_6cdc57fa50.jpg",
+                                "hash": "thumbnail_TV_6cdc57fa50",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_TV.jpg",
+                                "path": null,
+                                "size": 6.09,
+                                "width": 156,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_TV_6cdc57fa50",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "TV_6cdc57fa50",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.93,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487074/TV_6cdc57fa50.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "TV_6cdc57fa50",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.415Z",
+                        "updatedAt": "2023-12-13T17:05:15.525Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 13,
+        "attributes": {
+            "title": "Title",
+            "createdAt": "2023-12-13T17:06:30.597Z",
+            "updatedAt": "2023-12-13T17:06:43.214Z",
+            "publishedAt": "2023-12-13T17:06:43.130Z",
+            "isNew": true,
+            "oldPrice": 50020,
+            "price": 48000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "shohidul",
+            "rating": 3,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 26,
+                    "attributes": {
+                        "name": "title.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 295,
+                        "height": 171,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_title_955acc6c1b.jpg",
+                                "hash": "thumbnail_title_955acc6c1b",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_title.jpg",
+                                "path": null,
+                                "size": 7.74,
+                                "width": 245,
+                                "height": 142,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_title_955acc6c1b",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "title_955acc6c1b",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.04,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487074/title_955acc6c1b.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "title_955acc6c1b",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.315Z",
+                        "updatedAt": "2023-12-13T17:04:37.315Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "attributes": {
+            "title": "Tv1",
+            "createdAt": "2023-12-13T17:08:17.825Z",
+            "updatedAt": "2023-12-13T17:08:20.321Z",
+            "publishedAt": "2023-12-13T17:08:20.314Z",
+            "isNew": true,
+            "oldPrice": 50000,
+            "price": 4000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "hero",
+            "rating": 3,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 26,
+                    "attributes": {
+                        "name": "title.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 295,
+                        "height": 171,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_title_955acc6c1b.jpg",
+                                "hash": "thumbnail_title_955acc6c1b",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_title.jpg",
+                                "path": null,
+                                "size": 7.74,
+                                "width": 245,
+                                "height": 142,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_title_955acc6c1b",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "title_955acc6c1b",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.04,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487074/title_955acc6c1b.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "title_955acc6c1b",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.315Z",
+                        "updatedAt": "2023-12-13T17:04:37.315Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 15,
+        "attributes": {
+            "title": "Head phon",
+            "createdAt": "2023-12-13T17:09:30.801Z",
+            "updatedAt": "2023-12-13T17:09:33.023Z",
+            "publishedAt": "2023-12-13T17:09:33.017Z",
+            "isNew": true,
+            "oldPrice": 5000,
+            "price": 2500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "bangladeshi",
+            "rating": 2,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 27,
+                    "attributes": {
+                        "name": "headphon1.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 225,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_headphon1_aa47af9e1d.jpg",
+                                "hash": "thumbnail_headphon1_aa47af9e1d",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_headphon1.jpg",
+                                "path": null,
+                                "size": 3.69,
+                                "width": 156,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_headphon1_aa47af9e1d",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "headphon1_aa47af9e1d",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 5.06,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487075/headphon1_aa47af9e1d.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "headphon1_aa47af9e1d",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.316Z",
+                        "updatedAt": "2023-12-13T17:04:37.316Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 16,
+        "attributes": {
+            "title": "Headphon1",
+            "createdAt": "2023-12-13T17:10:12.228Z",
+            "updatedAt": "2023-12-13T17:10:16.940Z",
+            "publishedAt": "2023-12-13T17:10:16.934Z",
+            "isNew": true,
+            "oldPrice": 5000,
+            "price": 4000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "usk",
+            "rating": 5,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 25,
+                    "attributes": {
+                        "name": "headphon.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 225,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_headphon_20aba7417c.jpg",
+                                "hash": "thumbnail_headphon_20aba7417c",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_headphon.jpg",
+                                "path": null,
+                                "size": 5.62,
+                                "width": 156,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_headphon_20aba7417c",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "headphon_20aba7417c",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.09,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487075/headphon_20aba7417c.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "headphon_20aba7417c",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.215Z",
+                        "updatedAt": "2023-12-13T17:04:37.215Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 18,
+        "attributes": {
+            "title": "Loptop2",
+            "createdAt": "2023-12-13T17:12:46.117Z",
+            "updatedAt": "2023-12-13T17:12:52.966Z",
+            "publishedAt": "2023-12-13T17:12:52.957Z",
+            "isNew": true,
+            "oldPrice": 50000,
+            "price": 45000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "india",
+            "rating": 3,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 23,
+                    "attributes": {
+                        "name": "SAMSUNG.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 360,
+                        "height": 140,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_SAMSUNG_27b5d1cff8.jpg",
+                                "hash": "thumbnail_SAMSUNG_27b5d1cff8",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_SAMSUNG.jpg",
+                                "path": null,
+                                "size": 3.92,
+                                "width": 245,
+                                "height": 95,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_SAMSUNG_27b5d1cff8",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "SAMSUNG_27b5d1cff8",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 5.75,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487073/SAMSUNG_27b5d1cff8.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "SAMSUNG_27b5d1cff8",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.216Z",
+                        "updatedAt": "2023-12-13T17:04:37.216Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 19,
+        "attributes": {
+            "title": "Pc",
+            "createdAt": "2023-12-13T17:13:43.417Z",
+            "updatedAt": "2023-12-13T17:13:45.831Z",
+            "publishedAt": "2023-12-13T17:13:45.826Z",
+            "isNew": true,
+            "oldPrice": 12000,
+            "price": 11000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "india",
+            "rating": 3,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 20,
+                    "attributes": {
+                        "name": "box3.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 300,
+                        "height": 168,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_box3_e4795fabe6.jpg",
+                                "hash": "thumbnail_box3_e4795fabe6",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_box3.jpg",
+                                "path": null,
+                                "size": 3.73,
+                                "width": 245,
+                                "height": 137,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_box3_e4795fabe6",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "box3_e4795fabe6",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 3.98,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487074/box3_e4795fabe6.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "box3_e4795fabe6",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.115Z",
+                        "updatedAt": "2023-12-13T17:13:25.334Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 20,
+        "attributes": {
+            "title": "Pc1",
+            "createdAt": "2023-12-13T17:14:32.318Z",
+            "updatedAt": "2023-12-13T17:14:33.917Z",
+            "publishedAt": "2023-12-13T17:14:33.837Z",
+            "isNew": true,
+            "oldPrice": 70000,
+            "price": 60000,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "bogura",
+            "rating": 2,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 22,
+                    "attributes": {
+                        "name": "box4.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 225,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_box4_fb7a4fd869.jpg",
+                                "hash": "thumbnail_box4_fb7a4fd869",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_box4.jpg",
+                                "path": null,
+                                "size": 6.13,
+                                "width": 156,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_box4_fb7a4fd869",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "box4_fb7a4fd869",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.89,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487075/box4_fb7a4fd869.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "box4_fb7a4fd869",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.113Z",
+                        "updatedAt": "2023-12-13T17:14:19.888Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 21,
+        "attributes": {
+            "title": "shoe1",
+            "createdAt": "2023-12-13T17:15:11.429Z",
+            "updatedAt": "2023-12-13T17:15:13.150Z",
+            "publishedAt": "2023-12-13T17:15:13.142Z",
+            "isNew": true,
+            "oldPrice": 750,
+            "price": 500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "india",
+            "rating": 2,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 24,
+                    "attributes": {
+                        "name": "image1.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 225,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_image1_f2f2bec128.jpg",
+                                "hash": "thumbnail_image1_f2f2bec128",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_image1.jpg",
+                                "path": null,
+                                "size": 5.95,
+                                "width": 156,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_image1_f2f2bec128",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "image1_f2f2bec128",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 7.17,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487074/image1_f2f2bec128.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "image1_f2f2bec128",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.216Z",
+                        "updatedAt": "2023-12-13T17:04:37.216Z"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": 22,
+        "attributes": {
+            "title": "lopher1",
+            "createdAt": "2023-12-13T17:16:21.514Z",
+            "updatedAt": "2023-12-13T17:16:24.013Z",
+            "publishedAt": "2023-12-13T17:16:23.962Z",
+            "isNew": true,
+            "oldPrice": 1500,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "category": "india",
+            "rating": 4,
+            "quantity": 1,
+            "image": {
+                "data": {
+                    "id": 21,
+                    "attributes": {
+                        "name": "image5.jpg",
+                        "alternativeText": null,
+                        "caption": null,
+                        "width": 224,
+                        "height": 225,
+                        "formats": {
+                            "thumbnail": {
+                                "ext": ".jpg",
+                                "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487076/thumbnail_image5_0c37a63573.jpg",
+                                "hash": "thumbnail_image5_0c37a63573",
+                                "mime": "image/jpeg",
+                                "name": "thumbnail_image5.jpg",
+                                "path": null,
+                                "size": 3.28,
+                                "width": 155,
+                                "height": 156,
+                                "provider_metadata": {
+                                    "public_id": "thumbnail_image5_0c37a63573",
+                                    "resource_type": "image"
+                                }
+                            }
+                        },
+                        "hash": "image5_0c37a63573",
+                        "ext": ".jpg",
+                        "mime": "image/jpeg",
+                        "size": 3.91,
+                        "url": "https://res.cloudinary.com/djhjt07rh/image/upload/v1702487075/image5_0c37a63573.jpg",
+                        "previewUrl": null,
+                        "provider": "cloudinary",
+                        "provider_metadata": {
+                            "public_id": "image5_0c37a63573",
+                            "resource_type": "image"
+                        },
+                        "createdAt": "2023-12-13T17:04:37.115Z",
+                        "updatedAt": "2023-12-13T17:04:37.115Z"
+                    }
+                }
+            }
+        }
     }
 ]
-       
+
 
