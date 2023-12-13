@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { StateProps } from "../../../type";
 import CartItem from "@/components/CartItem";
 import { resetCart } from "@/redux/shoppingSlice";
-// import PaymentForm from "@/components/PaymentForm";
+import PaymentForm from "@/components/PaymentForm";
 import Link from "next/link";
 
 
@@ -25,7 +25,7 @@ const CartPage = () => {
                 reset cart
               </button>
             </div>
-            {/* <PaymentForm /> */}
+            <PaymentForm />
           </div>
         </Container> : <div className="flex flex-col gap-y-6 items-center justify-center bg-white h-96 px-4">
           <p className="border-[1px] border-orange-600 w-full p-2 text-center">Your product Cart is currently empty</p>

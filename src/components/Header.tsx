@@ -8,18 +8,34 @@ import { FiLogOut } from "react-icons/fi";
 import { useSession, signIn, signOut } from "next-auth/react";
 import Image from 'next/image';
 import Link from "next/link";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Products, StateProps } from "../../type";
 import { useEffect, useState } from "react";
 import FormattedPrice from "./FormattedPrice";
+import { addUser, deleteUser } from "@/redux/shoppingSlice";
 
 
 
 
 
 const Header = () => {
+    const dispatch = useDispatch();
     const { data: session } = useSession();
    const {productData} = useSelector((state:StateProps)=>state.shopping);
+
+   useEffect(()=>{
+    if(session){
+        dispatch(
+            addUser({
+                name: session?.user?.name,
+                email: session?.user?.email,
+                image: session?.user?.image,
+            })
+        );
+    }else{
+        dispatch(deleteUser());
+    }
+   },[session,dispatch]);
 
    const [totalAmt,setTotalAmt] = useState(0);
 

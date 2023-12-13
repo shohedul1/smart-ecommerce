@@ -33,7 +33,7 @@ const ProductsData = ({ item }: ItemProps) => {
             alt="product image"
             width={500}
             height={500}
-            property="property"
+            loading="lazy"
             className="w-full h-full object-cover group-hover:scale-110 duration-200 rounded-t-lg" />
           {item?.attributes?.isNew && (
 
