@@ -19,19 +19,19 @@ import FormattedPrice from "./FormattedPrice";
 
 const Header = () => {
     const { data: session } = useSession();
-    // console.log(session);
-    const { productData } = useSelector((state: StateProps) => state.shopping);
-    //   console.log(productData)
-    const [totalAmt, setTotalAmt] = useState(0);
+   const {productData} = useSelector((state:StateProps)=>state.shopping);
 
-    useEffect(() => {
-        let amt = 0;
-        productData.map((item: Products) => {
-            amt += item?.attributes?.price * item?.attributes?.quantity;
-            return;
-        });
-        setTotalAmt(amt);
-    }, [productData]);
+   const [totalAmt,setTotalAmt] = useState(0);
+
+   useEffect(()=>{
+    let amt = 0;
+    productData.map((item:Products)=>{
+        amt += item?.attributes?.price *item?.attributes?.quantity
+        return;
+    });
+    setTotalAmt(amt);
+   },[productData]);
+
     return (
         <div className='bg-bodyColor h-20 top-0 sticky z-50'>
             <Container className='h-full flex items-center md:gap-x-5 justify-between md:justify-start'>
@@ -57,10 +57,10 @@ const Header = () => {
                     <div className='cartDiv'>
                         <BsCart className="text-xl" />
                         <p className='text-sm font-semibold'>
-                            <FormattedPrice amount={totalAmt ? totalAmt : 0} />
+                            <FormattedPrice amount={totalAmt ? totalAmt : 0}/>
                         </p>
                         <span className='cartSpan'>
-                            {productData ? productData?.length : 0}
+                          {productData ? productData?.length :0}
                         </span>
                     </div>
                 </Link>

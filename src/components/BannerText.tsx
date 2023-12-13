@@ -1,14 +1,12 @@
-import {motion} from "framer-motion";
 import Container from "./Container";
+import {motion} from "framer-motion";
 
 
 interface Props{
-    title:string,
-    description:string,
+    title: string,
 };
 
-
-const BannerText = ({title,description}:Props) => {
+const BannerText = ({title}:Props) => {
   return (
     <div className="hidden lg:inline-block absolute top-0 left-0 w-full h-full">
         <Container className="flex flex-col h-full gap-y-6 justify-center">
@@ -24,7 +22,8 @@ const BannerText = ({title,description}:Props) => {
          whileInView={{y:0,opacity:1}} 
          transition={{duration:0.6}}
          className="text-lg text-slate-100">
-            {description}
+            Stock up on sportswear and limited edition collecttions on our<br/>
+            awesome mid-season sale.
         </motion.p>
         <motion.div
          initial={{y:50,opacity:0}} 
@@ -33,13 +32,13 @@ const BannerText = ({title,description}:Props) => {
          className="flex gap-x-4 mt-2">
         
             <button className="py-3 px-6 rounded-full bg-slate-200 hover:bg-white duration-200 text-sm uppercase font-semibold">
-                Find out more and let see 
+                Find out more
             </button>
             <button className="py-3 px-6 rounded-full bg-slate-200 hover:bg-white duration-200 text-sm uppercase font-semibold">Shop Now</button>
         </motion.div>
         </Container>
     </div>
   )
-}
+};
 
-export default BannerText
+export default BannerText;

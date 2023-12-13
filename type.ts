@@ -28,7 +28,7 @@ export interface Products {
         export interface StateProps{
             shopping:{
                 productData:[],
-                userInfo:[],
+                userInfo:{},
                 orderData:{
                     order: Products[];
                 };

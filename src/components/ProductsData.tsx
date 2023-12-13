@@ -59,10 +59,7 @@ const ProductsData = ({ item }: ItemProps) => {
           </div>
           <div className="flex items-center justify-between">
             {/* add  to cart button */}
-            <button onClick={()=>dispatch(addToCart(item)) && 
-            toast.success(
-              `${item?.attributes?.title.substring(0.15)} added successfully!`
-            )}
+            <button onClick={()=>dispatch(addToCart(item)) && toast.success(`${item?.attributes?.title.substring(0,15)} added successfully!`)}
             className="bg-orange-600 px-4 py-2 text-sm tracking-wide rounded-full text-slate-100 hover:bg-orange-800 hover:text-white duration-200">
               Add to cart
             </button>

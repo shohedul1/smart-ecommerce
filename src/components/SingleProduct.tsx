@@ -5,16 +5,16 @@ import FormattedPrice from "./FormattedPrice";
 import { IoMdCart } from "react-icons/io";
 import { MdFavoriteBorder } from "react-icons/md";
 import { useDispatch } from "react-redux";
-import toast, { Toaster } from "react-hot-toast";
 import { addToCart } from "@/redux/shoppingSlice";
+import toast,{Toaster} from "react-hot-toast";
 
 
 
 
 
 const SignleProduct = ({ product }: any) => {
-    // console.log(product)
     const dispatch = useDispatch();
+    // console.log(product)
 
     return (
         <div className="grid lg:grid-cols-2 gap-5 bg-white p-4 rounded-lg">
@@ -43,10 +43,7 @@ const SignleProduct = ({ product }: any) => {
                     </span>
                 </div>
                 <div className="flex items-center cursor-pointer group">
-                    <button onClick={() => dispatch(addToCart(product)) &&
-                        toast.success(
-                            `${product?.attributes?.title.substring(0.15)} added successfully!`
-                        )}
+                    <button onClick={()=>dispatch(addToCart(product)) && toast.success(`${product?.attributes?.title.substring(0,15)} added successfully!`)}
                         className="bg-darkText text-slate-100 px-6 py-3 text-sm uppercase flex items-center border-r-[1px] border-r-slate-500">
                         add to cart
                     </button>
@@ -59,7 +56,7 @@ const SignleProduct = ({ product }: any) => {
                     Add to wishlist
                 </p>
             </div>
-            <Toaster/>
+           <Toaster/>
         </div>
     )
 }
