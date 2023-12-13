@@ -46,19 +46,19 @@ const Banner = () => {
                 <div className="w-full h-full relative">
                     <Image src={image1} alt="image1"
                     className="w-full h-[550px] relative"
-                    priority/>
+                    priority={true}/>
                  <BannerText title="Outware Picks"/>
                 </div>
                 <div className="w-full h-full relative">
                     <Image src={image2} alt="image1"
                     className="w-full h-[550px] relative"
-                    priority/>
+                     priority={true}/>
                  <BannerText title="Seasonal Offers"/>
                 </div>
                 <div>
                     <Image src={image3} alt="image3"
                     className="w-full  h-[550px] relative"
-                    priority/>
+                    priority={true}/>
                      <BannerText title="Best for men"/>
                 </div>   
             </Slider>

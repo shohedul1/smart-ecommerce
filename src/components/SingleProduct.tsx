@@ -24,7 +24,7 @@ const SignleProduct = ({ product }: any) => {
                     alt="product image"
                     width={500}
                     height={500}
-                    loading="lazy"
+                    priority={true}
                     className="w-full max-h-[700px] object-cover rounded-lg" />
             </div>
             <div className="flex flex-col justify-center gap-y-10">
