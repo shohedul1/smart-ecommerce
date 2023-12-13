@@ -4,7 +4,7 @@ import Link from "next/link"
 const Logo = () => {
   return (
     <Link href={"/"}>
-        <h3 className="text-3xl font-semibold hover:text-orange-500 cursor-pointer duration-200">Shopping.</h3>
+        <h3 className="text-3xl font-semibold hover:text-orange-500 cursor-pointer duration-200">LoGo.</h3>
     </Link>
   )
 }
